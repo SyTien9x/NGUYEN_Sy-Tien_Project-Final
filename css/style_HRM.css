@@ -31,7 +31,7 @@ header {
 /* Ensure the H1 text does not break into multiple lines unexpectedly */
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 32px;
     flex-grow: 1;
     text-align: center;
     margin-right: 60px;

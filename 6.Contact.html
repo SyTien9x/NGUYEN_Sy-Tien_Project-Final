@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,14 @@
                     <option value="marketing">Marketing</option>
                 </select>
             </div>
-
+            <div>
+                <label for="hiredate">Hiredate:</label>
+                <input type="date" id="hiredate" name="hiredate">
+            </div>
+            <div>
+                <label for="salary">Salary($):</label>
+                <input type="number" min="0" step="0.01" id="salary" name="salary" required placeholder="Ex:4000">
+            </div>
             <div>
                 <label for="message">Notes / Contact Message:</label>
                 <textarea id="message" name="message" rows="5" placeholder="Type employee details or your message here..."></textarea>

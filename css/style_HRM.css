@@ -92,3 +92,23 @@ textarea {border:1px solid #ddd; border-radius:5px;}
     height: 100%;
     border: none;
 }
+
+/* Form of audio */
+.audio-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+/* Style for the audio section label */
+.audio-container label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+/* Style for the HTML5 audio player */
+.audio-container audio {
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+    background-color: #f1f3f4;
+}
